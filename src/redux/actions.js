@@ -9,7 +9,7 @@ import { headers } from "../constants/index";
 export const getData = createAsyncThunk('countryData', async (isoCode) => {
     // apiisteğinde kullanılacak parametreyibelirle
 
-    const params = { iso: isoCode };
+    const params = { q: isoCode };
 
 
 

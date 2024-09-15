@@ -1,5 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
-import dataReducer from "./dataSlice";
-export default configureStore({
-    reducer: dataReducer
-});
+import { configureStore } from '@reduxjs/toolkit';
+import dataReducer from './dataSlice';
+
+export default configureStore({ reducer: dataReducer });

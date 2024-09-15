@@ -9,11 +9,12 @@ describe("error display bileşeni", () => {
     });
     beforeAll(() => {
         console.log("Testin çalışmasından hemen sonra ");
-    })
+    });
 
     test("doğru mesajı gösterir", () => {
         const errorMessage = '404 content was not found';
         render(<ErrorDisplay message={errorMessage} retry={() => { }} />);
+
         //dogru hata mesajına sahip yazı var mı?
         screen.getByText(errorMessage);
         //gereksiz
