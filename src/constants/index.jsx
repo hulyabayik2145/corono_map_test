@@ -216,5 +216,5 @@ export const storeData = {
     },
   },
   isLoading: false,
-  error: "Request failed with status code 404",
+  error: null,
 };
